@@ -75,6 +75,10 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				 <configuration>
+     					 <source>8</source>
+     					 <target>8</target>
+     				 </configuration>
   				<artifactId>maven-compiler-plugin</artifactId>
   				<configuration>
   					<annotationProcessorPaths>
